@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <div
-        className="flex flex-col items-center justify-center bg-black z-0 h-screen"
+        className="flex flex-col items-center justify-center bg-black z-0 md:h-screen"
         style={{
           backgroundImage:
             'linear-gradient(rgba(0 0 0 / 60%),rgba(0 0 0 / 60%)), url(/hero-bg.jpg)',
@@ -67,18 +67,18 @@ export default function Home() {
           </div>
         </header>
 
-        <main className="relative flex flex-col items-center pt-20 md:justify-center w-full flex-1 px-20 text-center ">
-          <h1 className="text-2xl md:text-5xl font-medium text-white max-w-lg tracking-wider">
+        <main className="relative flex flex-col items-center pt-[50px] pb-20 md:pb-0 md:pt-20 md:justify-center w-full flex-1 px-10 md:px-20 text-center ">
+          <h1 className="text-3xl  md:text-5xl font-medium text-white max-w-lg tracking-wider">
             Unlimited movies, TV shows, and more.
           </h1>
           <h2 className="text-lg md:text-2xl lg:text-3xl text-white mt-4 mb-8">
             Watch anywhere. Cancel anytime.
           </h2>
-          <p className="text-white text-md md:text-lg lg:text-lg">
+          <p className="text-white text-sm md:text-lg lg:text-lg">
             Ready to watch? Enter your email to create or restart your
             membership.
           </p>
-          <div className="flex flex-col items-center space-y-3 md:space-y-0 md:flex-row mt-4">
+          <div className="flex flex-col items-center space-y-2 md:space-y-0 md:flex-row mt-4">
             <input
               placeholder="Email address"
               type="text"
