@@ -22,8 +22,11 @@ function Faq() {
       <div className="flex flex-col justify-center items-center space-y-3 cursor-pointer">
         {faqs &&
           faqs.map((faq, index) => (
-            <div key={index} className="faq">
-              <h3 className="faq__text text-white ">{faq}</h3>
+            <div
+              key={index}
+              className="bg-[#303030] py-2  w-4/5  flex items-center justify-between px-10 md:py-5 md:w-3/5"
+            >
+              <h3 className=" text-white text-lg md:text-3xl">{faq}</h3>
               <PlusIcon className="h-6 w-6 md:h-10 md:w-10 text-white text-sm md:text-lg" />
             </div>
           ))}
